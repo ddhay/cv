@@ -1,0 +1,25 @@
+hr {
+    border-style:none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+    body{    
+      
+      background-image: linear-gradient(to right bottom, rgba(203, 214, 200, 0.8), rgba(200, 212, 208, .4)), 
+      url("images/fisherman.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;  
+      height: 100%;
+      margin-bottom: 160px;
+    }
+    h1{
+      color:#616f39;
+      text-transform: uppercase;
+
+    } 
+
+    h3{color:#616f39;
+    } 
+   
