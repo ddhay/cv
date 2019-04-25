@@ -7,12 +7,17 @@ hr {
 
     body{    
       
-      background-image: linear-gradient(to right bottom, rgba(203, 214, 200, 0.8), rgba(200, 212, 208, .4)), 
+   /* background-image: linear-gradient(to right bottom, rgba(203, 214, 200, 0.8), rgba(200, 212, 208, .4)),   */
+      background: linear-gradient(to right bottom, rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.1) 100%), 
       url("images/fisherman.jpg");
       background-repeat: no-repeat;
       background-size: cover;  
       height: 100%;
-      margin-bottom: 160px;
+      margin-bottom:160px;
+
+      
+      /*background: linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,0.7) 100%), 
+      url(https://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png) repeat 0 0;*/
     }
     h1{
       color:#616f39;
@@ -20,6 +25,18 @@ hr {
 
     } 
 
-    h3{color:#616f39;
+    h2{color:#616f39;
     } 
+   ol{
+     font-size: 20px;
+     padding-bottom:650px;
+   }
+
+   form{
+     font-size: 20px;
+     margin-bottom:400px;
+   }
+
+   a, table, li {font-size: 20px;}
+
    
